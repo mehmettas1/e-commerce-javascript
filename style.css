@@ -1,25 +1,24 @@
 /*? base css start */
 
-
-@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,500&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,500&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Jost',sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
 }
 
-ul,ol {
-    margin: 0;
-    padding: 0 ;
-    list-style: none;
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-a{
-    text-decoration: none;
-    color: #000;
+a {
+  text-decoration: none;
+  color: #000;
 }
 
 h1,
@@ -29,75 +28,115 @@ h4,
 h5,
 h6,
 p {
-    margin: 0;
+  margin: 0;
 }
 
 .container {
-    max-width: 1200px;
-    width: 100%;
-    margin:0 auto;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
 }
 /*? base css end */
 
-
 /* ! header start */
 
-
 header {
-    border-bottom: 1px solid #dee0ea;
-
+  border-bottom: 1px solid #dee0ea;
 }
 
 .header-row {
-    height: 90px;
-    display: flex;
-    align-items: center;
+  height: 90px;
+  display: flex;
+  align-items: center;
 }
-.global-notification{
-    background-color: #1267ef;
-    padding: 14px 0;
-    text-align: center;
-    color: white;
-    font-size: 12px;
-
+.global-notification {
+  background-color: #1267ef;
+  padding: 14px 0;
+  text-align: center;
+  color: white;
+  font-size: 12px;
 }
 
 .global-notification a {
-    color: white;
-    font-weight: 600;
+  color: white;
+  font-weight: 600;
 }
 
 .header-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.header-left .logo{
-    font-size: 24px;
-    font-weight: 500;
-    display: flex;
-
+.header-left .logo {
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
 }
 
-.header-center .navigation .menu-list{
-    display: flex;
-    column-gap: 30px;
-    align-items: center;
-
+.header-center .navigation .menu-list {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
 }
 
-.header-center  .menu-list .menu-link{
+.header-center .menu-list .menu-link {
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
-    
+  letter-spacing: 1.2px;
+}
+
+.header-center .menu-list i {
+  font-size: 12px;
 }
 
 
-.header-center  .menu-list i {
-    font-size: 12px;
+.header-right .header-right-links{
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+
 }
+
+.header-right .bi-person {
+    font-size: 23px;
+
+}
+
+.header-right .toggle-button {
+border: none;
+background-color:transparent;
+
+}
+
+
+.header-right  i {
+font-size: 18px;
+display: flex;
+
+}
+
+.header-right  .header-cart {
+    position: relative;
+
+}
+
+.header-right  .header-cart-link .header-cart-count {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color:#1367ef ;
+    color: white;
+    font-size: 10px;
+    border-radius: 100%;
+    top: -10px;
+    right: -10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+
 
 /* ! header end */
