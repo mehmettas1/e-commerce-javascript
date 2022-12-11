@@ -185,7 +185,7 @@ header .menu-dropdown-content a {
   display: flex;
   padding: 4px 30px;
   font-size: 14px;
-  transition: color 0.2s ease;
+  transition: all 0.2s ease;
 }
 header .menu-dropdown-content a:hover {
   color: #1367ef;
